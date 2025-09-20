@@ -95,13 +95,10 @@ The counter app uses React's `useState` hook to manage the counter state. The co
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request
 
-## License
-
-This project is open source and available for everyone.
 
 ## Author
 
-[Your Name](https://github.com/she1da)
+[Sheyda Ahmadi Pour](https://github.com/she1da)
 
 ---
 
