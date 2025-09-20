@@ -1,0 +1,70 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    --elements-color: #2b97f4;
+    --elements-color-hover: #37a1ffff;
+}
+
+.app {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    color: #eaeaea;
+    margin-bottom: 2rem;
+}
+
+.card {
+    padding: 2em;
+    border-radius: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.count-display {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--elements-color);
+    margin-bottom: 1.5rem;
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: var(--elements-color);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.button:hover:not(:disabled) {
+    background-color: var(--elements-color-hover);
+}
+
+.button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.note {
+    color: #666;
+    font-style: italic;
+}
